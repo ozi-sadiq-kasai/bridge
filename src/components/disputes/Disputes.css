@@ -1,0 +1,17 @@
+.disputes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3.5rem;
+}
+.disputes__text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.disputes__text p {
+  color: #6c757d;
+  font-size: 1.1rem;
+  width: 92%;
+}

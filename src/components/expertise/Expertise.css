@@ -1,0 +1,39 @@
+.expertise{
+    margin-top: 3.5rem;
+}
+.expertise__header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.expertise__list{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.expertise__item {
+    border: 1px solid #ced4da;
+    padding: 1rem 1rem 4rem 1rem;
+    border-radius: 8px;
+  }
+.expertise__list p{
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+.expertise__list--header{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.expertise__list--header h3{
+    color: #4da4ab;
+    font-size: 1.5rem;
+}
+.expertise__list--links{
+   display: flex;
+   align-items: center;
+}
