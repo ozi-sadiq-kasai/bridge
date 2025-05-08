@@ -21,7 +21,6 @@
   .disputes{
     flex-direction: column;
     justify-content: center;
-    border:1px solid red;
     width: 100%;
   }
   .disputes__text h1 {
