@@ -1,0 +1,29 @@
+.virtual__container {
+  margin-top: 3.5rem;
+}
+.virtual__container--header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.virtual__container--header h2 {
+  font-size: 2rem;
+}
+.virtual__container--header p {
+  width: 50%;
+  margin: 0 auto;
+}
+.virtual__container--text{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.virtual__container--list li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+}
+span{
+    color: #4da4ab;
+}

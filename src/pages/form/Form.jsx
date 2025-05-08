@@ -33,16 +33,16 @@ const Form = () => {
     };
 
     return (
-        <div className="form-container">
-            <div>
+        <div className="form__container">
+            <div className='form__container--header'>
                 <h2>Get Started</h2>
                 <p>Complete the form below to begin the dispute resolution process. Our team will review your information and contact you to discuss next steps.</p>
             </div>
-            <h3>Step {step} of 3</h3>
-            <form onSubmit={handleSubmit}>
+            <h3 className='step'>Step <span>{step}</span> of 3</h3>
+            <form onSubmit={handleSubmit} className='form__container--form'>
                 {step === 1 && (
-                    <div>
-                        <div>
+                    <div className='form__container--content'>
+                        <div className='form__container--content--header'>
                             <h3>Dispute Information</h3>
                             <p>Tell us about your dispute</p>
                         </div>

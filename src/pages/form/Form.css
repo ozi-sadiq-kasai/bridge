@@ -1,0 +1,40 @@
+.form__container{
+    border: 2px solid green;
+    margin-top: 3.5rem;
+}
+
+.form__container--header{
+    text-align: center;
+}
+.form__container--header h2{
+    font-size: 2.5rem;
+}
+.form__container--header p{
+    width: 55%;
+    margin: 0 auto;
+}
+.form__container .step{
+    text-align: center;
+    margin-top: 2rem;
+}
+.form__container .step span{
+    color: #4da4ab;
+}
+.form__container--form{
+    border: 2px solid blue;
+    padding: 1rem 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.form__container--form--content{
+    border: 2px solid red;
+}
+.form__container--content--header{
+border:1px solid black;
+}
+.form__container--content--header h3{
+    font-size: 1.6rem;
+}
+.form__container--content--header p{
+    font-size: 1rem;
+}
