@@ -18,7 +18,6 @@ const Nav = () => {
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/process">Our Process</a></li>
                     <li><a href="/faq">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
                     <li><a href="/get-started" className='get-started-mobile'>Get Started</a></li>
                 </ul>
 

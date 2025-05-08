@@ -1,40 +1,139 @@
-.form__container{
-    border: 2px solid green;
-    margin-top: 3.5rem;
+.form__container {
+  margin-top: 3.5rem;
+  padding-bottom: 2rem;
 }
 
-.form__container--header{
-    text-align: center;
+.form__container--header {
+  text-align: center;
 }
-.form__container--header h2{
-    font-size: 2.5rem;
+
+.form__container--header h2 {
+  font-size: 2.5rem;
 }
-.form__container--header p{
-    width: 55%;
-    margin: 0 auto;
+
+.form__container--header p {
+  width: 55%;
+  margin: 0 auto;
+  font-size: 1.2rem;
 }
-.form__container .step{
-    text-align: center;
-    margin-top: 2rem;
+
+.form__container .step {
+  text-align: center;
+  margin-top: 2rem;
 }
-.form__container .step span{
-    color: #4da4ab;
+
+.form__container .step span {
+  color: #4da4ab;
 }
-.form__container--form{
-    border: 2px solid blue;
-    padding: 1rem 0;
-    width: 70%;
-    margin: 0 auto;
+
+.form__container--form {
+  padding: 1rem 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #3a878d;
+  
 }
-.form__container--form--content{
-    border: 2px solid red;
+
+/* .form__container--form--content {
+  border: 2px solid red;
+} */
+
+.form__container--content--header {
+  margin-bottom: 0.5rem;
 }
-.form__container--content--header{
-border:1px solid black;
+
+.form__container--content--header h3 {
+  font-size: 1.8rem;
 }
-.form__container--content--header h3{
-    font-size: 1.6rem;
+
+.form__container--content--header p {
+  font-size: 1.2rem;
 }
-.form__container--content--header p{
-    font-size: 1rem;
+.form__container--content--type {
+  font-size: 1rem;
+  color: gray;
+}
+.form__container--content--summary label {
+  font-size: 1rem;
+  margin-bottom:0.3rem ;
+  display: inline-block;
+}
+.form__container--content--summary textarea{
+    outline: none;
+    border:1px solid #3a878d;
+}
+.form__container--content--btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container--content--btn div {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+/* Style radio buttons globally */
+input[type="radio"] {
+  transform: scale(1.5);
+  accent-color: #4da4ab; /* optional color styling */
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+/* Style radio labels with icons */
+.form__container--content--btn div label {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+/* Hover effect for radio container divs */
+.form__container--content--btn div:hover {
+  /* background-color: #f0f0f0;
+  border-radius: 5px; */
+  /* padding: 1rem; */
+}
+
+/* Step 2 radio buttons (contact method) */
+form > div input[type="radio"] + label {
+  /* font-size: 1rem; */
+  /* margin-right: 1.5rem; */
+  /* display: inline-flex;
+  align-items: center;
+  cursor: pointer; */
+}
+
+/* Add some spacing to form inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  background-color: #4da4ab;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a878d;
 }

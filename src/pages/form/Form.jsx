@@ -46,31 +46,43 @@ const Form = () => {
                             <h3>Dispute Information</h3>
                             <p>Tell us about your dispute</p>
                         </div>
-                        <div>
-                            <p>Type of Dispute</p>
-                            <input type="radio" name='dispute' value='business' />
-                            <label><LuBriefcaseBusiness />business</label>
-                            <input type="radio" name='dispute' value='court-related' />
-                            <label><GoLaw />court-related</label>
-                            <input type="radio" name='dispute' value='family' />
-                            <label><MdFamilyRestroom />family</label>
-                            <input type="radio" name='dispute' value='workplace' />
-                            <label><BsPersonWorkspace />workplace</label>
-                            <input type="radio" name='dispute' value='real-estate' />
-                            <label><MdOutlineRealEstateAgent />real estate</label>
-                            <input type="radio" name='dispute' value='custom-solutions' />
-                            <label><RiCustomerService2Line />custom solutions</label>
+                        <p className='form__container--content--type'>Type of Dispute</p>
+                        <div className='form__container--content--btn'>
+                            <div>
+                                <input type="radio" name='dispute' value='business' />
+                                <label><LuBriefcaseBusiness />business</label>
+                            </div>
+                            <div>
+                                <input type="radio" name='dispute' value='court-related' />
+                                <label><GoLaw />court-related</label>
+                            </div>
+                            <div>
+                                <input type="radio" name='dispute' value='family' />
+                                <label><MdFamilyRestroom />family</label>
+                            </div>
+                            <div>
+                                <input type="radio" name='dispute' value='workplace' />
+                                <label><BsPersonWorkspace />workplace</label>
+                            </div>
+                            <div>
+                                <input type="radio" name='dispute' value='real-estate' />
+                                <label><MdOutlineRealEstateAgent />real estate</label>
+                            </div>
+                            <div>
+                                <input type="radio" name='dispute' value='custom-solutions' />
+                                <label><RiCustomerService2Line />custom solutions</label>
+                            </div>
                         </div>
-                        <div>
+                        <div className='form__container--content--summary'>
                             <label htmlFor="summary">Brief Summary of the Dispute</label>
-                            <textarea name="summary" id="summary" cols="70" rows="5" ></textarea>
+                            <textarea name="summary" id="summary" cols="50" rows="5" ></textarea>
                         </div>
                     </div>
                 )}
 
                 {step === 2 && (
-                    <div>
-                        <div>
+                    <div className='form__container--content'>
+                        <div className='form__container--content--header'>
                             <h3>Your Information</h3>
                             <p>Please provide your contact information</p>
                         </div>

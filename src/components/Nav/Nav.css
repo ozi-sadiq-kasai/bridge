@@ -1,8 +1,7 @@
 .nav {
   width: 100%;
   background-color: whitesmoke;
-  border-bottom: 1px solid #ddd;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
 }
@@ -15,7 +14,7 @@
 }
 
 .nav-logo .logo {
-  max-height: 5rem;
+  max-height: 7rem;
 }
 
 .nav-links {
@@ -26,8 +25,9 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: gray;
   font-weight: 500;
+  font-size: 1.3rem;
 }
 .nav-links li a:hover {
   color: #4da4ab;
@@ -40,11 +40,11 @@
 }
 
 .get-started {
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   background-color:#4da4ab;
   color: white;
   border-radius: 5px;
-  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .menu-icon {
