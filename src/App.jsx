@@ -1,4 +1,4 @@
-import Nav from './components/nav/Nav';
+import Nav from './components/nav/Nav'
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import FAQ from './pages/faq/FAQ';
