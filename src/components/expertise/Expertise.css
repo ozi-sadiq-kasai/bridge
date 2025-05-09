@@ -45,10 +45,19 @@
   align-items: center;
 }
 /* QUERIES */
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .expertise__list {
     margin-top: 1rem;
-    grid-template-columns: repeat(2, minmax(175px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  .expertise__item {
+    padding: 1rem 0.7rem 3rem 0.7rem;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 374px) {
+  .expertise__list {
+    margin-top: 1rem;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
   .expertise__item {
     padding: 1rem 0.7rem 3rem 0.7rem;

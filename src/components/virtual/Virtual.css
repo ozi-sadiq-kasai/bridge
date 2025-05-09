@@ -12,18 +12,22 @@
   width: 50%;
   margin: 0 auto;
 }
-.virtual__container--text{
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
+.virtual__container--text {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
-.virtual__container--list li{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: 0.5rem;
-
+.virtual__container--list li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
-span{
-    color: #4da4ab;
+span {
+  color: #4da4ab;
+}
+@media screen and (max-width: 768px) {
+  .virtual__container--header p {
+    width: 100%;
+  }
 }
