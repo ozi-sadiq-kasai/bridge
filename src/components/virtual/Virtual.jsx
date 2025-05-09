@@ -9,22 +9,22 @@ const virtual = [
     {
         header: 'Eliminate Geographic Barriers',
         text: 'Participate in mediation sessions from anywhere, eliminating travel time and expenses.',
-        icon: <LuVideo />
+        icon: <LuVideo size={24}/>
     },
     {
         header: 'Flexible Scheduling',
         text: 'More easily coordinate sessions around participants schedules, reducing delays in the resolution process.',
-        icon: <LuClock2 />
+        icon: <LuClock2 size={24}/>
     },
     {
         header: 'Secure & Confidential',
         text: 'Our video conferencing platform uses end-to-end encryption to ensure your sensitive discussions remain private.',
-        icon: <FiLock />
+        icon: <FiLock size={24}/>
     },
     {
         header: 'Include All Necessary Parties',
         text: 'Easily include experts, witnesses, or other stakeholders regardless of their location.',
-        icon: <IoPeopleOutline />
+        icon: <IoPeopleOutline size={24} />
     },
 ]
 
@@ -45,7 +45,7 @@ const Virtual = () => {
                         virtual.map((item, index) => (
                             <li key={index}>
                                 <span>{item.icon}</span>
-                                <div>
+                                <div className='virtual__container--list-header'>
                                     <h3>{item.header}</h3>
                                     <p>{item.text}</p>
                                 </div>
@@ -53,9 +53,8 @@ const Virtual = () => {
                         ))
                     }
                 </ul>
-
             </div>
-            <a href="#" className='virtual__container'>Learn About Virtual Mediation</a>
+            <a href="#" className='virtual__container--link'>Learn About Virtual Mediation</a>
         </div>
     );
 };
