@@ -1,72 +1,105 @@
 .detail {
-    padding: 20px 40px;
-  }
-  
-  .detail__header {
-    text-align: center;
-  }
-  
-  .detail__list {
-    margin-top: 2rem;
-  }
-  
-  /* Shared item styles */
-  .detail__item {
-    display: flex;
-    gap: 1.5rem;
-    margin-bottom: 4rem;
-    align-items: center;
-  }
-  
-  /* Odd: normal direction */
-  .detail__item.odd {
-    flex-direction: row;
-  }
-  
-  /* Even: reversed direction */
-  .detail__item.even {
-    flex-direction: row-reverse;
-    gap: 10rem;
-    justify-content: start;
-  }
-  
-  .detail__item article {
-    flex: 2;
-    padding: 1rem 0 0 1rem;
-  }
-  
-  .detail__item article span {
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: 0.2rem 1rem;
-    background-color: whitesmoke;
-  }
-  
-  .detail__item article h3 {
-    font-size: 1.7rem;
-    color: #4da4ab;
-    margin-bottom: 0.5rem;
-  }
-  
-  .detail__item article p {
-    margin-bottom: 1rem;
-    width: 70%;
-    font-size: 1.1rem;
-    color: #929ba8;
-  }
-  
-  .detail__item article section {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .detail__item img {
-    flex: 1;
-    width: 40%;
-  }
+  padding: 40px;
+  margin-top: 8.5rem;
+}
 
-  .tick{
-    color: #4da4ab;
-  }
-  
+.detail__header {
+  text-align: center;
+}
+.detail__header h2 {
+  font-size: 2.5rem;
+}
+.detail__header p {
+  font-size: 1.3rem;
+  color: #929ba8;
+}
+
+.detail__list {
+  margin-top: 2rem;
+}
+
+/* Shared item styles */
+.detail__item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Odd: normal direction */
+.detail__item.odd {
+  flex-direction: row;
+}
+
+/* Even: reversed direction */
+.detail__item.even {
+  flex-direction: row-reverse;
+  gap: 10rem;
+  justify-content: start;
+}
+
+.detail__item article {
+  flex: 1;
+}
+.detail__item img {
+  flex: 1;
+  /* width: 40%; */
+}
+
+.detail__item article span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: whitesmoke;
+}
+
+.detail__item article h3 {
+  font-size: 2.2rem;
+  color: #4da4ab;
+  margin-bottom: 0.5rem;
+}
+
+.detail__item article p {
+  margin-bottom: 1rem;
+  width: 80%;
+  font-size: 1.4rem;
+  color: #929ba8;
+}
+
+.detail__item article section {
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tick {
+  color: #4da4ab;
+}
+
+
+/* QUERIES */
+@media screen and (max-width:768px){
+  .detail__item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+.detail__item.odd {
+  flex-direction: column;
+}
+
+/* Even: reversed direction */
+.detail__item.even {
+  flex-direction: column;
+  gap: 10rem;
+  justify-content: start;
+}
+
+}
