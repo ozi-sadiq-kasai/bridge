@@ -30,4 +30,15 @@ span {
   .virtual__container--header p {
     width: 100%;
   }
+  .virtual__container--text {
+    flex-direction: column;
+    width: 100%;
+  }
+  .virtual__container--img {
+    border: 1px solid green;
+    width: 100%;
+  }
+  .virtual__container--img img {
+    width: 100%;
+  }
 }

@@ -37,7 +37,9 @@ const Virtual = () => {
                     convenient, and efficient for all parties involved.</p>
             </div>
             <div className='virtual__container--text'>
-                <img src={assets.virtual} alt="" style={{ width: "50%" }} />
+                <div className='virtual__container--img'>
+                    <img src={assets.virtual} alt="virtual meeting" />
+                </div>
                 <ul className='virtual__container--list'>
                     {
                         virtual.map((item, index) => (
@@ -51,7 +53,7 @@ const Virtual = () => {
                         ))
                     }
                 </ul>
-               
+
             </div>
             <a href="#" className='virtual__container'>Learn About Virtual Mediation</a>
         </div>
