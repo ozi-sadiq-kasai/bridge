@@ -12,7 +12,7 @@
 }
 .disputes__text p {
   color: #6c757d;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   width: 92%;
 }
 
@@ -28,6 +28,10 @@
   font-weight: 700;
   width: 100%;
   margin-bottom: 1rem;
+}
+.disputes__text p {
+  font-size: 1.2rem;
+  width: 100%;
 }
   .disputes img{
     width: 100%;

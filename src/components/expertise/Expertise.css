@@ -10,6 +10,10 @@
 .expertise__header h2 {
   font-size: 2rem;
 }
+.expertise__header p {
+  font-size: 1.2rem;
+    color: #6c757d;
+}
 .expertise__list {
   margin-top: 2rem;
   display: grid;
