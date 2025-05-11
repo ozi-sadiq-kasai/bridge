@@ -13,7 +13,7 @@ const detailSteps = [
       'Identify all parties involved',
       'Explain our process and set expectations',
     ],
-    image: assets.mediation,
+    image: assets.meeting,
   },
   {
     step: 'Step 2',
@@ -25,7 +25,7 @@ const detailSteps = [
       'Outlines potential resolution approaches',
       'Establishes a timeline for resolution',
     ],
-    image: assets.mediation,
+    image: assets.plan,
   },
   {
     step: 'Step 3',
@@ -37,7 +37,7 @@ const detailSteps = [
       'Identify common ground and potential compromises',
       'Work toward mutually acceptable solutions',
     ],
-    image: assets.mediation,
+    image: assets.mediate,
   },
   {
     step: 'Step 4',
@@ -49,7 +49,7 @@ const detailSteps = [
       'Provide guidance on implementing the resolution',
       'Offer follow-up support as needed',
     ],
-    image: assets.mediation,
+    image: assets.agreement,
   },
 ];
 
