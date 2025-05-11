@@ -56,3 +56,32 @@
 .faq__item.open .faq__question {
   color: #4da4ab; /* Ensure it stays black when open */
 }
+
+
+/* QUERIES */
+.faq {
+  margin-top: 10rem;
+  padding: 0 1rem;
+  /* margin-bottom: 5rem; */
+}
+.faq__header h2 {
+  font-size: 2.1rem;
+}
+.faq__header p {
+  font-size: 1rem;
+  color: #929ba8;
+}
+.faq__list {
+  padding: 0 0.5rem;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.faq__item {
+  border-bottom: 1px solid #ccc;
+  padding: 0rem 0;
+}
+.faq__question {
+ 
+  font-size: 1.25rem;
+}
