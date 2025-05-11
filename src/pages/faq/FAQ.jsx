@@ -52,18 +52,6 @@ const FAQ = () => {
                     </li>
                 ))}
             </ul>
-
-            <div className='faq__cta'>
-                <h4>Ready To Begin</h4>
-                <p>Take the first step toward resolving your dispute with our expert guidance.</p>
-                <div className="faq__buttons">
-                    <div className="faq__button-group">
-                        <a href="">Get Started Now</a>
-                        <IoIosArrowRoundForward />
-                    </div>
-                    <a href="" className='faq__buttons--contact'>Contact Us</a>
-                </div>
-            </div>
         </div>
     )
 }
