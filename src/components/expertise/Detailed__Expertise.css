@@ -5,6 +5,13 @@
   text-align: center;
   margin-bottom: 2rem;
 }
+.expert__header h2{
+  font-size: 2rem;
+}
+.expert__header p{
+  font-size: 1.2rem;
+  color:#6c757d
+}
 .expert__list{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
@@ -54,7 +61,7 @@ section div{
 /* QUERIES */
 @media screen and (max-width:768px){
   .expert{
-  padding: 10rem 2.5rem 0 2.5rem;
+  padding: 10rem 0.5rem 0 0.5rem;
 }
   .expert__list{
      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
