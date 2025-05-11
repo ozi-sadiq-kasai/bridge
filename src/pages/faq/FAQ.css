@@ -59,6 +59,8 @@
 
 
 /* QUERIES */
+@media screen and (max-width:768px){
+
 .faq {
   margin-top: 10rem;
   padding: 0 1rem;
@@ -84,4 +86,5 @@
 .faq__question {
  
   font-size: 1.25rem;
+}
 }
