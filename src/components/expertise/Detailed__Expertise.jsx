@@ -14,7 +14,7 @@ const expertise = [
             'Partnership conflicts',
             'Business dissolution'
         ],
-        image: assets.mediation,
+        image: assets.business,
     },
     {
         category: 'Real Estate Disputes',
@@ -26,7 +26,7 @@ const expertise = [
             'Landlord/tenant disputes',
             'Property boundary disputes'
         ],
-        image: assets.mediation,
+        image: assets.estate,
     },
     {
         category: 'Court-Related Disputes',
@@ -38,7 +38,7 @@ const expertise = [
             'Unlawful detainer cases',
             'Court preparation consultations'
         ],
-        image: assets.mediation,
+        image: assets.law,
     },
     {
         category: 'Family Disputes',
@@ -50,7 +50,7 @@ const expertise = [
             'Unlawful detainer cases',
             'Court preparation consultations'
         ],
-        image: assets.mediation,
+        image: assets.marriage,
     },
     {
         category: 'Workplace Disputes',
@@ -62,7 +62,7 @@ const expertise = [
             'Retaliation claims',
             'General workplace conflicts'
         ],
-        image: assets.mediation,
+        image: assets.workplace,
     },
 ]
 

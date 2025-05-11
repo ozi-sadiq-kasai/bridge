@@ -1,5 +1,5 @@
 .expert{
-  padding: 1rem 2.5rem;
+  padding: 10rem ;
 }
 .expert__header{
   text-align: center;
@@ -7,17 +7,25 @@
 }
 .expert__list{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
   gap: 1rem;
 }
 .expert__item{
 border: 1px solid #a4c3b2;
 border-radius:5px;
-padding: 1rem;
+padding: 1rem 2rem;
 display: flex;
 flex-direction: column;
 gap: 1rem;
-height: 530px;
+}
+.expert__item h3{
+  font-size: 2rem;
+}
+.expert__item p{
+  font-size: 1.2rem;
+}
+section div{
+  font-size: 1.25rem;
 }
 .expert__item span{
   background-color: whitesmoke;
@@ -41,4 +49,30 @@ height: 530px;
   width: 100%;
   object-fit: cover;
   height: 200px;
+}
+
+/* QUERIES */
+@media screen and (max-width:768px){
+  .expert{
+  padding: 10rem 2.5rem 0 2.5rem;
+}
+  .expert__list{
+     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    }
+    .expert__item{
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+  }
+  .expert__item span{
+  margin-bottom: 0.5rem;
+}
+.expert__item h3{
+  font-size: 1.5rem;
+}
+.expert__item p{
+  font-size: 1rem;
+}
+section div{
+  font-size: 1.1rem;
+}
 }
